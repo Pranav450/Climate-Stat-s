@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Reasons </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <!--jQuery library-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!--Latest compiled and minified JavaScript-->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        .button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: MistyRose;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;}
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      .hey{
+  background-repeat: no-repeat;
+background-size:cover;
+animation:animate 16s ease-in-out infinite;
+}
+@keyframes animate {
+  0% {
+    background-image:url('cli.jpeg');
+    color:#ff0505
+
+  }
+  25% {
+    background-image:url('forests2.jpeg');
+    color:rgb(16, 255, 68)
+  }   
+  50% {
+    background-image:url('beauty.jpeg');
+    color:rgb(55, 0, 255)
+  }   
+  75% {
+    background-image:url('flood.jpeg');
+    color:#ffe924
+  }   
+  100% {
+    background-image:url('techo.jpeg');
+    color:rgb(255, 2, 213)
+  }   
+}
+.now{
+    padding:200px;
+    font-size: 300px;
+}
+.blw{
+    margin-left: 100px;
+    margin-right:100px;
+}
+.bwo{
+    margin-left: 30px;
+    margin-right:30px;
+    background-color:rgb(0, 0, 0);
+    padding:100px;
+}
+.blw.jok{
+    float:right;
+}
+.hr{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.hr:hover{
+    color:aliceblue;
+}
+.hp{
+    font-family:40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.hp:hover{
+    color:aliceblue;
+}
+.imh1 {
+  background-image:url(cause1.jpeg);
+  background-repeat: no-repeat;
+ background-size: cover;
+  width: 100%;
+  padding: 20px;
+  font-size: 30px;
+  color:rgb(248, 6, 6);
+  opacity: 2;
+}
+.imh1:hover{
+    color:rgb(6, 255, 6);
+    opacity: 0.9;
+}
+.imh2 {
+  background-image:url(beauty.jpeg);
+  background-repeat: no-repeat;
+ background-size: cover;
+  width: 100%;
+  padding: 20px;
+  font-size: 30px;
+  color:rgb(252, 0, 0);
+  opacity: 2;
+}
+.imh2:hover{
+    color:rgb(6, 255, 6);
+    opacity: 0.9;
+}
+.imh3 {
+  background-image:url(flood.jpeg);
+  background-repeat: no-repeat;
+ background-size: cover;
+  width: 100%;
+  padding: 20px;
+  font-size: 30px;
+  color:rgb(252, 0, 0);
+  opacity: 2;
+}
+.imh3:hover{
+    color:rgb(6, 255, 6);
+    opacity: 0.9;
+}
+.imh4 {
+  background-image:url(techo.jpeg);
+  background-repeat: no-repeat;
+ background-size: cover;
+  width: 100%;
+  padding: 20px;
+  font-size: 30px;
+  color:rgb(252, 0, 0);
+  opacity: 2;
+}
+.imh4:hover{
+    color:rgb(6, 255, 6);
+    opacity: 0.9;
+}
+.go{
+    text-align: center;
+    font-size: 25px;
+    padding:40px;
+
+}
+.go:hover{
+    color:aliceblue;
+}
+/* Increase the font size of the heading */
+.header h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 200px;
+}
+.header:hover{
+  color:#ff0505;
+}
+
+    </style>
+    <link href="carousel.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <div class="container">
+      <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+          <img alt="" src="" width="55" height="38" >
+      </a>
+    </div>
+  <!-- Brand -->
+  <a class="navbar-brand" href="index.html"> Climate Stat's </a>
+
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+        <a class="nav-link" href="newhtml.html"> Climate Change </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="newhtml3.html"> Reasons  </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="newhtml1.html"> Solutions  </a>
+      </li>
+     <!-- <li class="nav-item">
+        <a class="nav-link" href=""> Effects </a>
+      </li>-->
+      <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="newhtml2.html" id="navbardrop" data-toggle="dropdown">
+      Effects
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="newhtml2.html">On Economy</a>
+        <a class="dropdown-item" href="newhtml2.html">On Lifestyle</a>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#"> About Us  </a>
+    </li>
+    </ul>
+  </div>
+        <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+            </div>
+        </nav>
+        <div class="hey">
+            <div class="now">
+            <h1> REASON FOR CLIMATE CHANGE</h1>
+            </div>
+        </div>
+        <div class ="bwo">
+        <div class="blw">
+            <p class="hr">Scientists attribute the global warming trend observed since the mid-20th century 
+                to the human expansion of the "greenhouse effect"1 — warming that results when the atmosphere traps heat radiating from Earth toward space.
+                 Certain gases in the atmosphere block heat from escaping. 
+                 Long-lived gases that remain semi-permanently in the atmosphere and do not respond physically or chemically to changes in 
+                 temperature are described as "forcing" climate change. Gases, such as water vapor, which respond physically or chemically to 
+                 changes in temperature are seen as "feedbacks.
+             The most abundant greenhouse gas, but importantly, it acts as a feedback to the climate. Water vapor increases as the Earth's atmosphere warms, but so does the possibility of clouds and precipitation, making these some of the most important feedback mechanisms to the greenhouse effect.<br>
+             <div class="imh1" style="height:60px">CARBON DIOXIDE</div>
+              <p class="go"> Carbon dioxide (CO2). A minor but very important component of the atmosphere, carbon dioxide is released through natural processes such as respiration and volcano eruptions and through human activities such as deforestation, land use changes, and burning fossil fuels. Humans have increased atmospheric CO2 concentration by more than a third since the Industrial Revolution began. This is the most important long-lived "forcing" of climate change.</p>>
+               <div class="imh2"style="height:60px">METHANE</div>
+               <p class="go">Methane. A hydrocarbon gas produced both through natural sources and human activities, including the decomposition of wastes in landfills, agriculture, and especially rice cultivation, as well as ruminant digestion and manure management associated with domestic livestock. On a molecule-for-molecule basis, methane is a far more active greenhouse gas than carbon dioxide, but also one which is much less abundant in the atmosphere.</p>
+                         <div class="imh3"style="height:60px">NITROUS OXIDE</div>
+              <p class="go"> Nitrous oxide. A powerful greenhouse gas produced by soil cultivation practices, especially the use of commercial and organic fertilizers, fossil fuel combustion, nitric acid production, and biomass burning.</p>
+               <div class="imh4"style="height:60px">CHLOROFLORO CARBON</div>
+               <p class="go">Chlorofluorocarbons (CFCs). Synthetic compounds entirely of industrial origin used in a number of applications, but now largely regulated in production and release to the atmosphere by international agreement for their ability to contribute to destruction of the ozone layer. They are also greenhouse gases.</p>
+                </p>
+                <p class="go">It's reasonable to assume that changes in the Sun's energy output would cause the climate to change, since the Sun is the fundamental source of energy that drives our climate system.
+
+                    Indeed, studies show that solar variability has played a role in past climate changes. For example, a decrease in solar activity coupled with an increase in volcanic activity is thought to have helped trigger the Little Ice Age between approximately 1650 and 1850, when Greenland cooled from 1410 to the 1720s and glaciers advanced in the Alps.
+                    
+                    But several lines of evidence show that current global warming cannot be explained by changes in energy from the Sun:
+                    
+                    Since 1750, the average amount of energy coming from the Sun either remained constant or increased slightly.
+                    If the warming were caused by a more active Sun, then scientists would expect to see warmer temperatures in all layers of the atmosphere. Instead, they have observed a cooling in the upper atmosphere, and a warming at the surface and in the lower parts of the atmosphere. That's because greenhouse gases are trapping heat in the lower atmosphere.
+                    Climate models that include solar irradiance changes can’t reproduce the observed temperature trend over the past century or more without including a rise in greenhouse gases.</p>
+         </div> 
+          
+         </div>   
+</body>
+</html>
